@@ -1,0 +1,36 @@
+# Системные файлы для разных ОС
+.DS_Store
+Thumbs.db
+
+# Логи
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Папки с зависимостями
+node_modules/
+/node_modules
+.pnp
+.pnp.js
+
+# Зависимости и виртуальное окружение Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# Сборки и артефакты
+dist/
+build/
+*.db
+
+# Файлы окружения (с секретами и настройками)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.npm

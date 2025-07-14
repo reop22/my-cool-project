@@ -1,0 +1,15 @@
+# file: backend/requirements.txt
+fastapi
+uvicorn[standard]
+sqlalchemy[asyncio]
+asyncpg
+alembic
+pydantic
+pydantic-settings
+python-jose[cryptography]
+passlib[bcrypt]
+docxtpl
+python-multipart
+sqladmin
+itsdangerous
+aiosqlite
